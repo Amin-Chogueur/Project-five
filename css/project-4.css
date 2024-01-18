@@ -198,7 +198,7 @@ nav form i{
 }
 @media(max-width:767px){
     .page .dashboard {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
         gap: 10px;
     }
 }
@@ -388,7 +388,7 @@ nav form i{
     position: relative;
 }
 .target .boxes .box i{
-    padding: 35px 40px;
+    padding: 25px 30px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -1639,7 +1639,7 @@ table tbody tr td img:not(:first-child){
 /* start friends */
 .friends{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
     gap: 20px;
     padding: 20px;
 }
@@ -1697,13 +1697,13 @@ table tbody tr td img:not(:first-child){
     margin-right: 8px;
 }
 .friends .friend .foot{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
+    text-align: center;
     padding-top: 15px;
 }
 .friends .friend .foot p{
     color: #777;
+    margin-bottom: 5px;
 }
 .friends .friend .foot button{
     border: none;
@@ -1831,7 +1831,7 @@ table tbody tr td img:not(:first-child){
 /*start plans*/
 .plans{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
     padding: 20px;
     gap: 20px;
     text-transform: capitalize;
@@ -1872,13 +1872,13 @@ table tbody tr td img:not(:first-child){
 }
 .plans ul li{
     position: relative;
-    padding:  15px 10px;
+    padding:  15px 5px;
     border-bottom: 1px solid #ddd;
-    font-size: 15px;
+    font-size: 13px;
     position: relative;
 }
 .plans ul li span:first-child{
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .green{
     color: green;
@@ -1888,7 +1888,7 @@ table tbody tr td img:not(:first-child){
 }
 .plans ul li span:last-child{
     position: absolute;
-    right: 10px;
+    right: 5px;
     background-color: gray;
     color: white;
     width: 15px;
