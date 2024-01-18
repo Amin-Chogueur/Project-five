@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="this is my fourth website using only html and css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <title>setting</title>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/project-4.css">
+    </head>
+    <body>
+        <div class="page">
+            <div class="sidebar">
+                <h2> amin</h2>
+                <ul>
+                    <li>
+                        <a href="index.html"> 
+                            <i class="fas fa-chart-bar fa-fw"></i>
+                            <span>dashboard</span>
+                        </a>                    
+                    </li>
+                    <li class="active">
+                        <a href="#">
+                            <i class="fas fa-cog fa-fw"></i>
+                            <span>setting</span>
+                        </a>                       
+                    </li>
+                    <li>
+                        <a href="profile.html">
+                            <i class="fas fa-user fa-fw"></i>
+                            <span>profile</span>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="project.html">
+                            <i class="fas fa-project-diagram fa-fw"></i>
+                            <span>projects</span>
+                        </a>                      
+                    </li>
+                    <li>
+                        <a href="./courses.html">
+                            <i class="fas fa-graduation-cap fa-fw"></i>
+                            <span>courses</span>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="./friends.html">
+                            <i class="fas fa-user-friends fa-fw"></i>
+                            <span>friends</span>
+                        </a>                      
+                    </li>
+                    <li>
+                        <a href="./fils.html">
+                            <i class="fas fa-file fa-fw"></i>
+                            <span>files</span>
+                        </a>                       
+                    </li>
+                    <li>
+                        <a href="./plans.html">
+                            <i class="far fa-credit-card fa-fw"></i>
+                            <span>plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- ./sidebar -->
+            <div class="content">
+                <nav>
+                    <form action="">
+                        <i class="fas fa-search "></i>
+                        <input type="search" placeholder="Type A Keyword">
+                    </form>
+                    <div class="image">
+                        <i class="far fa-bell fa-lg"></i>
+                        <img src="img-4/avatar.png " alt="image">
+                    </div><!-- ./image -->
+                </nav>
+                <h1 class="head">setting</h1>
+                <div class="setting">
+                    <div class="control">
+                        <h2>site control</h2>
+                        <p>control the website if there is maintenance</p>
+                        <h3>website control</h3>
+                        <div class="con-butt">
+                            <p>open/close website and type the reason</p>
+                            <label for="" class="component">
+                                <input class="button" type="checkbox" checked>
+                                <div class="check"></div>
+                            </label>
+                        </div><!-- ./con-butt -->
+                        <form action="">
+                            <textarea placeholder="close message content"></textarea>
+                        </form>
+                    </div><!-- ./control -->
+                    <div class="general">
+                        <h2>general info</h2>
+                        <p>general information about your account</p>
+                        <form action="">
+                            <label for="">first name</label>
+                            <input type="text" placeholder="first name">
+                            <label for="">last name</label>
+                            <input type="text" placeholder="last name">
+                            <label for="">email</label>
+                            <div>
+                                <input type="email" value="chogueur@gmail.com" readonly>
+                                <button>change</button>
+                            </div>
+                        </form>
+                    </div><!-- ./general -->
+                    <div class="security">
+                        <h2>security info</h2>
+                        <p>security information about your account</p>
+                        <div class="password">
+                            <h3>password</h3>
+                            <div class="pass">
+                                <p>last change on 25/10/2021</p>
+                                <button>change</button>
+                            </div><!-- ./pass -->                                                
+                        </div>
+                        <div class="factor ">
+                                <h3>two-factor authentication</h3>   
+                            <div class="con-butt">
+                                <p>enable/disable the feature</p>
+                                <label for="" class="component">
+                                    <input class="button" type="checkbox" checked>
+                                    <div class="check"></div>
+                                </label>
+                            </div><!-- ./con-butt -->                                           
+                        </div><!-- ./factor -->
+                        <div class="dev">
+                            <h3>devices</h3>
+                            <div class="pass">    
+                                <p>check the login devices list</p>
+                                <button>devices</button>
+                            </div><!-- ./pass -->                              
+                        </div>
+                    </div><!-- ./security -->
+                    <div class="social">
+                        <h2>social info</h2>
+                        <p>social media information</p>
+                        <div class="media">
+                            <div class="face">
+                                <input type="text" placeholder="facebook username">
+                                <i class="fab fa-facebook fa-fw"></i>                         
+                            </div>
+                            <div class="twitt">
+                                <input type="text" placeholder="twitter username">
+                                <i class="fab fa-twitter fa-fw"></i> 
+                            </div>
+                            <div class="yout">
+                                <input type="text "placeholder="youtube username">
+                                <i class="fab fa-youtube fa-fw"></i>
+                            </div>
+                            <div class="link">
+                                <input type="text" placeholder="linkedin username">
+                                <i class="fab fa-linkedin fa-fw"></i>
+                            </div>
+                        </div><!-- ./media -->
+                    </div><!-- ./social -->
+                    <div class="widgets">
+                        <h2>widgets info</h2>
+                        <p>show/hide widgets</p>
+                        <div class="list">
+                            <input type="checkbox" id="one" checked>
+                            <label for="one">quick draft</label>
+                        </div><!-- ./list -->
+                            <div class="list">
+                                <input type="checkbox" id="two" checked>
+                                <label for="two">yearly targets</label>
+                            </div><!-- ./list -->                        
+                            <div class="list">
+                                <input type="checkbox" id="three" checked>
+                                <label for="three">tickets statistics</label>
+                            </div><!-- ./list -->                        
+                            <div class="list">
+                                <input type="checkbox" id="four"checked >
+                                <label for="four">latest nexs</label>
+                            </div><!-- ./list -->  
+                            <div class="list">
+                                <input type="checkbox" id="five">
+                                <label for="five">latest tasks</label>
+                            </div><!-- ./list -->                          
+                            <div class="list">
+                                <input type="checkbox" id="six" checked>
+                                <label for="six">top search items</label>
+                            </div><!-- ./list -->
+                            
+                        
+                    </div><!-- ./widgets -->
+                    <div class="manager">
+                        <h2>backup manager</h2>
+                        <p>control backup time and location</p>
+                        <div class="lists">
+                            <div class="list">
+                                <input type="checkbox" id="one1" checked>
+                                <label for="one1">daily</label>
+                            </div><!-- ./list -->
+                            <div class="list">
+                                <input type="checkbox" id="two1">
+                                <label for="two1">weekly</label>
+                            </div><!-- ./list -->
+                            <div class="list">
+                                <input type="checkbox" id="three1">
+                                <label for="three1">monthly</label>
+                            </div><!-- ./list -->
+                        </div><!-- ./lists -->
+                        <div class="opt">
+                            <div class="mega">
+                                <i class="fas fa-server"></i>
+                                <span>megaman</span>
+                            </div><!-- ./mega -->
+                            <div class="ami">
+                                <i class="fas fa-server"></i>
+                                <span>amin</span>
+                            </div><!-- ./ami -->
+                            <div class="sig">
+                                <i class="fas fa-server"></i>
+                                <span>sigma</span>
+                            </div><!-- ./sig -->
+                        </div><!-- ./opt -->
+                    </div><!-- ./manager -->
+                </div><!-- ./setting -->
+            </div><!-- ./content -->
+        </div><!-- ./page -->
+
+    </body>
+</html>
